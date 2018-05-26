@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">jbs</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="phone_code">手机号</string>
+    <string name="password">密码</string>
+    <!--index-->
+    <string name="gong_gao">公告</string>
+    <string name="liao_tian_qun">聊天群</string>
+    <string name="xiao_xi">消息</string>
+
+    <!--center frg-->
+    <string name="index_btn">首页</string>
+    <string name="main_btn">我的</string>
+    <string name="ke_hu">客户</string>
+    <string name="ye_wu">业务</string>
+    <string name="ndsykh">你的所有客户:</string>
+    <string name="jrxzkh">今日新增客户:</string>
+    <string name="ding_dan">订单</string>
+    <string name="xin_zeng">新增</string>
+    <string name="wo_de">我的</string>
+    <string name="guan_li">管理</string>
+    <string name="jin_huo">进货</string>
+    <string name="tui_huo">退货</string>
+    <string name="lu_xian">路线</string>
+
+</resources>

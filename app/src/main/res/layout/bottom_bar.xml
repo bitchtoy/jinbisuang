@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:id="@+id/index_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/index_radio_btn"
+            style="@style/IndexBottomBar"
+            android:drawableTop="@drawable/index_state"
+            android:text="@string/index_btn"/>
+        <RadioButton style="@style/IndexBottomBar"
+                    android:id="@+id/center_radio_btn"
+                    android:drawableTop="@drawable/center"/>
+        <RadioButton
+            android:id="@+id/main_radio_btn"
+            style="@style/IndexBottomBar"
+            android:drawableTop="@drawable/main_state"
+            android:text="@string/main_btn"/>
+    </RadioGroup>
+    <View style="@style/separation_line" android:layout_above="@id/index_radio_group"/>
+
+</merge>
